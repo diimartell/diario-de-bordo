@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DIÁRIO DE BORDO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header>
+      <!--Adicionar o "scrollto" na class para rolagem automática, adicionar no href a id a ser referenciada com uma #-->
+        <ul class="nav bg-dark-subtle">
+            <li class="nav-item">
+              <a class="nav-link active" href="start.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#form">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#credits">Créditos</a>
+            </li>
+          </ul>
+    </header>
+
+    <main>
+      <!--Carrosel de Imagens - O link da imagem entra no SRC na tag img
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./media/carrossel1.jpg" class="d-block w-100" alt="#">
+              </div>
+              <div class="carousel-item">
+                <img src="./media/carrossel2.jpg" class="d-block w-100" alt="#">
+              </div>
+              <div class="carousel-item">
+                <img src="./media/carrossel3.jpg" class="d-block w-100" alt="#">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>-->
+
+        <div>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media/carrossel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Diário de Bordo</h1>
+                  <p>Diário de aulas produzido pelas alunas do curso de Full-Stack Senac-PE/Porto Digital.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/carrossel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Diário de Bordo</h1>
+                  <p>Diário de aulas produzido pelas alunas do curso de Full-Stack Senac-PE/Porto Digital.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/carrossel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Diário de Bordo</h1>
+                  <p>Diário de aulas produzido pelas alunas do curso de Full-Stack Senac-PE/Porto Digital.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div>
+            <center>
+                <h3>Envie suas sugestões ou dúvidas</h3>
+                <br>
+                <form action="" id="form">
+                    <input type="text" placeholder="Nome" required>
+                    <br>
+                    <input type="text" placeholder="Gênero" required>
+                    <br>
+                    <input type="text" placeholder="Assunto" required>
+                    <br> 
+                    <textarea placeholder="Mensagem" rows="5" required></textarea>
+                    <br> 
+                    <button type="submit">Enviar</button>
+                    <br><br><br>
+                </form>
+            </center>
+        </div>
+    </main>
+
+    <!--Linkar o id do footer na navbar para a rolagem automática-->
+    <footer id="credits">
+        <div>
+            <center>
+              <div class="card bg-dark-subtle">
+                <div class="card-body">
+                  <h5 class="card-title">Créditos</h5>
+                  <br>
+                  <p class="card-text">Blog feito por: Viviane Coelho, Jéssica Carvalho, Ingrid Silva, Nathalia Autran, Luana Nascimento e Mariene Cruz.</p>
+                  <p>Curso FullStack / Senac - PE / Porto Digital</p>
+                  <br>
+                  <div>
+                    Copyright @ 2023 Comunidade{Delas}. Todos os direitos reservados.
+                  </div>
+                </div>
+              </div>
+            </center>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+
+</html>
