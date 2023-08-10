@@ -1,18 +1,17 @@
-# Diário de Bordo Dev{a}s
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<div align="center"> 
+<img src="https://github.com/diimartell/projeto-aula/assets/129871998/49e10cc8-f41a-4b8e-aa50-9bcab168c128" width="170px">
+<h1>Diário de Bordo Dev{a}s</h1>
+</div>
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=em%20desenvolvimento&color=blue&style=for-the-badge"/>
+</p>
 
-<!--![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)-->
+## 📁 Sobre
 
-<img src="#" alt="exemplo imagem">
+Este projeto foi criado como parte integrante do curso "Programador Full Stack" no módulo FrontEnd da turma afirmativa do SenacPe + Porto Digital, com o propósito de armazenar todo o conteúdo aprendido em sala de aula. Aqui, você encontrará uma divisão entre conteúdo teórico, uma galeria de fotos e também aulas extra classe. A ideia é proporcionar aos alunos um espaço organizado e acessível para revisar o material, além de permitir o compartilhamento de recursos adicionais para aprimorar ainda mais o aprendizado.
 
-> Este repositório desenvolvido como atividade do curso Progamador Full Stack no módulo FrontEnd da turma afirmativa do SenacPe + Porto Digital com o objetivo de guardar todo conteúdo aprendido em sala de aula, dividido entre conteúdo teórico e galeria de fotos + aulas extra classe. 
-
-### Ajustes e melhorias
+## 🏛️ Estrutura e Melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -21,18 +20,40 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Estilização usando CSS
 - [ ] Tornar funcional com o JavaScript
 
+## :art: Layout
 
-<!--## 💻 Pré-requisitos
+O layout proposto para o projeto do diário de bordo de uma página web única adota uma abordagem simples, utilizando somente HTML e Bootstrap, conforme sugerido pela mentoria. O design busca proporcionar uma estrutura clara e bem organizada, aplicando os conhecimentos adquiridos durante as aulas de forma prática. A simplicidade do código HTML e a eficiência do Bootstrap permitem criar uma experiência agradável ao usuário, tornando o registro das experiências de viagem mais intuitivo e acessível. O objetivo é garantir que os aprendizados sejam aplicados de maneira efetiva, tornando o projeto do diário de bordo um exemplo de implementação bem-sucedida das habilidades adquiridas no curso.
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.-->
+## 🤝 Como Contribuir
 
+Se você deseja contribuir com este projeto, siga as etapas abaixo:
 
-## 🤝 Colaboradoras do Projeto
+1. Faça um fork do repositório para o seu próp
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+usuário do GitHub. 2. Clone o repositório forkado para o seu ambiente de desenvolvimento local. 3. Crie uma branch para realizar suas alterações:
+
+```bash
+git checkout -b nome-da-sua-branch
+```
+
+4. Faça as alterações desejadas no código.
+5. Commit suas alterações:
+
+```bash
+git commit -m "Descrição das alterações"
+```
+
+6. Envie suas alterações para o repositório remoto:
+
+```bash
+git push origin nome-da-sua-branch
+```
+
+7. Abra um pull request no repositório original, descrevendo suas alterações em detalhes.
+
+<br>
+
+## 👩‍💻 Autoras do Projeto
 
 <table>
   <tr>
@@ -87,4 +108,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#Diariodebordodevas)<br>
+### ✨ Obrigada a você que chegou até aqui!✨ 
+Espero que as informações fornecidas tenham sido úteis e que você possa aproveitar ao máximo este projeto. Caso surjam dúvidas adicionais, fique à vontade para consultar a documentação do código ou entrar em contato. 
+Estou à disposição para ajudar no que for necessário.
+
+[⬆ Voltar ao topo](#diário-de-bordo-devas)<br>
+
